@@ -1,10 +1,10 @@
 import _ from 'lodash';
+import './style.css';
 
 function component() {
     const element = document.createElement('div');
-
-    // Lodash, curren   tly included via a script, is required for this line to work
-    element.innerHTML = _.join(['Hello', 'webpack!!!'], ' ');
+    element.classList = ['footer'];
+    element.innerHTML = _.join(['Handcrafted. Source avai'], ' ');
 
     return element;
 }

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Heebo";
+    src: url("./Heebo-Regular.ttf") format("truetype"), url("./Heebo-Bold.ttf") format("truetype");
+}
+
+body {
+    font-family: 'Heebo';
+    font-weight: 400;
+    text-align: justify;
+    font-size: 18px;
+    margin: 2em;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.container {
+    max-width: 940px;
+}
+
+a {
+    color: #3bdd00;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #279200;
+}
+
+a.medium-link {
+    color: #dd9000;
+    transition: all 0.5s;
+}
+
+a.medium-link:hover {
+    color: #956100;
+}
+
+a.twitter-link {
+    color: #52dcff;
+    transition: all 0.5s;
+}
+
+a.twitter-link:hover {
+    color: #12b3db;
+}
+
+a.schwab-link {
+    color: #444;
+    transition: all 0.5s;
+}
+
+a.schwab-link:hover {
+    color: #999;
+}
+
+a.linked-in-link {
+    color: #0013be;
+    transition: 0.5s;
+}
+
+a.linked-in-link:hover {
+    color: rgb(67, 92, 117);
+}
+
+span {
+    color: #005df3;
+}
+
+.footer {
+    font-size: 9px;
+}
