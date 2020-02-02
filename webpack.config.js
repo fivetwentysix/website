@@ -5,12 +5,12 @@ module.exports = {
     entry: './src/index.js',
     output: {
         filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
     },
-    mode: "development",
+    mode: "production",
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: "./dist"
+        contentBase: "./docs"
     },
     plugins: [
         new HtmlWebpackPlugin({
